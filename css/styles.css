@@ -1,2 +1,106 @@
 @charset "UTF-8";
 /* CSS Document */
+nav {
+	background-color: #cecbcb;
+	height: 50px;
+}
+	
+ul {
+	list-style-type: none;
+	display: block;
+}
+li {
+	float:left;
+	padding: 0 30px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: 600;
+	display: inline-block;
+	line-height: 50px;
+}
+h1 {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: 600;
+	padding: 0 3%;
+	clear:both;
+	
+}
+h2 {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: 100;
+	padding: 0 3%;
+	float: left;
+	
+}
+h3 {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: 400;
+}
+p {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: 100;
+}
+select {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: 100;
+}
+/*for nav bar*/
+a:link { 
+	color:black;
+	text-decoration: none;
+	
+}
+a:vistited {
+	color: white;
+}
+a:hover {
+	color: teal;
+}
+a:active{
+	color: limegreen;
+}
+span {
+	font-style: italic;
+	font-weight: 200;
+	
+}
+th {
+	text-align: left;
+	padding: 0 10px;
+	font-weight: 600; 
+	border-left: 2px solid #cecbcb;
+	 
+}
+tr {
+	vertical-align: bottom;
+}
+
+td {
+	padding:0 20px;
+	border-left: 2px solid #cecbcb;
+	line-height: 2em;
+	border-right: 2px solid #cecbcb;
+}
+table {	
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: 200;
+	border-collapse: collapse;
+	border-bottom: 2px solid #cecbcb;
+	
+
+}
+tr:nth-child(2n) { /*color every other line*/
+	background-color: #EFECBF;
+	border-top: 2px solid #cecbcb;
+	
+}
+.images {
+	border-left: 0px solid #cecbcb;
+	border-right: 0px solid #cecbcb;
+}
+fieldset {
+	/*same border as home page*/
+	border:2px solid #cecbcb;
+}
+.formimages {
+	padding: 0 10px;
+}
