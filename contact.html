@@ -17,14 +17,15 @@
 		</ul>
 	</nav>
 	<fieldset>
-		<legend>Contact Hydro Flask Customer Service</legend>
+		<h1><legend>Contact Hydro Flask Customer Service</legend></h1>
 			<p><label>First &amp; Last Name
 				<input type="text" name="full name">
 				</label>
 			</p>
-			<label>Address
-				<input type="text" name="address">
-			</label>
+			<p>
+				<label>Address
+				<input type="text" name="address"></label>
+			
 			<!--drop down menue for all 50 states + DC-->
 			<select name="state">
 				<option value="AL">Alabama</option>
@@ -82,6 +83,7 @@
 				<label>Zip
 					<input type="text" name="zip code">
 				</label>
+			</p>
 			<p>
 				<label>Phone Number
 			<input type="text" name="phone">
@@ -92,6 +94,15 @@
 				<input type="email" name="email" />
 				</label>
 			</p>
+			<p>
+				Gender
+				<input type="radio" name="gender"
+				value="male" />Male
+				<input type="radio" name="gender"
+				value="female" />Female
+				<input type="radio" name="gender"
+				value="other" />Other
+					</p>
 			<p>
 				Pick 5 of your favorite colors (hold cmd/ctl when selecting)
 			</p>
@@ -109,9 +120,28 @@
 					<option value="lemon chiffron">lemon chiffon</option>
 				</select>
 			</p>
+			<h2>Buy a Hydro Flask!</h2>
+			<p>Card type:
+			<!--images of credit cards, buttons-->
+				<input type="image" src="images/visa.png" 
+				width="70"/>
+				<input type="image" src="images/mastercard1979.png" width="42"/>
+				<input type="image" src="images/american_express.png" width="30"/>
+			</p>
 			<p>
-				Credit Card Information
-
+				<label>Card Number:
+				<input type="text" name="credit card number" />
+				</label>
+				<label>CVV:
+				<input type="text" name="CVV number" max-length="3" size="3"/>
+				</label>
+				<label>Valid Thru:
+				<input type="date" name="date" />
+				</label>
+			</p>
+			<p>
+				<input type="submit"
+				value="submit" />
 			</p>
 	</fieldset>
 	
