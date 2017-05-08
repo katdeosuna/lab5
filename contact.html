@@ -16,6 +16,7 @@
 			<li><a href="contact.html">Our Story &amp; Contact</a></li>
 		</ul>
 	</nav>
+	<form>
 	<fieldset>
 		<h1><legend>Contact Hydro Flask Customer Service</legend></h1>
 			<p><label>First &amp; Last Name
@@ -107,6 +108,7 @@
 				Pick 5 of your favorite colors (hold cmd/ctl when selecting)
 			</p>
 			<p>
+				<!--command shift to select multiple colors-->
 				<select multiple name="colors" size="5">	
 					<option value="red">red</option>
 					<option value="orange">orange</option>
@@ -120,13 +122,13 @@
 					<option value="lemon chiffron">lemon chiffon</option>
 				</select>
 			</p>
-			<h2>Buy a Hydro Flask!</h2>
-			<p>Card type:
+			<h3>Buy a Hydro Flask!</h3>
+			<p>Card Type:
 			<!--images of credit cards, buttons-->
 				<input type="image" src="images/visa.png" 
-				width="70"/>
-				<input type="image" src="images/mastercard1979.png" width="42"/>
-				<input type="image" src="images/american_express.png" width="30"/>
+				width="70" class="formimages"/>
+				<input type="image" src="images/mastercard1979.png" width="42" class="formimages"/>
+				<input type="image" src="images/american_express.png" width="30" class="formimages"/>
 			</p>
 			<p>
 				<label>Card Number:
@@ -144,6 +146,6 @@
 				value="submit" />
 			</p>
 	</fieldset>
-	
+	</form>
 </body>
 </html>
