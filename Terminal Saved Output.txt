@@ -1,0 +1,143 @@
+Last login: Mon May  1 09:39:59 on ttys000
+grc-kenya:~ kdeosuna$ cd Desktop
+grc-kenya:Desktop kdeosuna$ 338_02_L5_DeOsuna
+-bash: 338_02_L5_DeOsuna: command not found
+grc-kenya:Desktop kdeosuna$ cd 338_02_L5_DeOsuna
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git add -A
+fatal: unable to stat 'Library/Logs/DiagnosticReports/node_2017-05-01-094028_grc-kenya.crash': No such file or directory
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git init
+Initialized empty Git repository in /Users/kdeosuna/Desktop/338_02_L5_DeOsuna/.git/
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git add -A
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git add -A
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .DS_Store
+	new file:   css/styles.css
+	new file:   images/LimeGreen.jpg
+	new file:   images/black.png
+	new file:   images/green.jpg
+	new file:   images/white.jpg
+	new file:   index.html
+
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git commit -m "add files"
+[master (root-commit) 717aeb5] add files
+ 7 files changed, 12 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 css/styles.css
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git remote add origin https://github.com/katdeosuna/lab5.git
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git push -u origin master
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 1.17 MiB | 1.79 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/katdeosuna/lab5.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git add -A
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   images/Logo.gif
+	modified:   index.html
+
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git commit -m "add html"
+[master 58f3fa0] add html
+ 2 files changed, 2 insertions(+)
+ create mode 100644 images/Logo.gif
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git add -A
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git commit -m "add css"
+[master c9a71fa] add css
+ 1 file changed, 69 insertions(+), 1 deletion(-)
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 2.96 KiB | 0 bytes/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/katdeosuna/lab5.git
+   717aeb5..c9a71fa  master -> master
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git add -A
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git add -A
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git commit -m "add comments"
+[master 4da2a8d] add comments
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git commit -am "add comments"
+[master 76da4e1] add comments
+ 1 file changed, 10 insertions(+), 8 deletions(-)
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ git log
+commit 76da4e14b8a3b1b79c2ffbcadcec92ab703dd9fe
+Author: katdeosuna <katherinedeosuna@gmail.com>
+Date:   Mon May 1 12:01:02 2017 -0700
+
+    add comments
+
+commit 4da2a8d6b5eca1faefe372cbd98547a016ad1ba7
+Author: katdeosuna <katherinedeosuna@gmail.com>
+Date:   Mon May 1 11:46:24 2017 -0700
+
+    add comments
+
+commit c9a71fa1e04d2828ef7b1f703e2a7707b6c79d4b
+Author: katdeosuna <katherinedeosuna@gmail.com>
+Date:   Mon May 1 11:16:58 2017 -0700
+
+    add css
+
+commit 58f3fa07bcf614751ec7cf7982e9317bc01326b1
+Author: katdeosuna <katherinedeosuna@gmail.com>
+Date:   Mon May 1 10:27:05 2017 -0700
+
+    add html
+
+commit 717aeb5322d838da7cf4b22563fdad474c68606e
+Author: katdeosuna <katherinedeosuna@gmail.com>
+Date:   Mon May 1 09:45:45 2017 -0700
+
+    add files
+grc-kenya:338_02_L5_DeOsuna kdeosuna$ 
