@@ -49,14 +49,14 @@ a:link {
 	text-decoration: none;
 	
 }
-a:vistited {
+a:visited {
 	color: white;
 }
 a:hover {
 	color: teal;
 }
 a:active{
-	color: limegreen;
+	color: aqua;
 }
 span {
 	font-style: italic;
@@ -103,4 +103,8 @@ fieldset {
 }
 .formimages {
 	padding: 0 10px;
+}
+.classtype {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: 100;
 }
